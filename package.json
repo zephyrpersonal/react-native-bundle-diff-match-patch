@@ -1,0 +1,20 @@
+{
+  "name": "react-native-bundle-diff-match-patch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:zephyrpersonal/react-native-bundle-diff-match-patch.git",
+  "author": "zephyr <zephyr.workmail@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "rnbp": "cli.js"
+  },
+  "dependencies": {
+    "commander": "^2.20.0",
+    "diff-match-patch": "^1.0.4",
+    "invariant": "^2.2.4",
+    "mz": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
